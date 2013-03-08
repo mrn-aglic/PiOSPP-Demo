@@ -9,6 +9,8 @@ object HelloWorld {
     var input = Console.readLine
     
     println("Welcome to Scala " + input)
+    
+    ReadFromFile.readFromFile()
   }
 
 }
