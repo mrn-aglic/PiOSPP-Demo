@@ -10,9 +10,9 @@ object HelloWorld {
     
     println("Welcome to Scala " + input)
     
-    ReadFromFile.readFromFile()
-    
     WriteToFile.writeToFile(input)
+    
+    ReadFromFile.readFromFile()
   }
 
 }
